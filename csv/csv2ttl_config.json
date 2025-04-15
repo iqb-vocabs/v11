@@ -1,0 +1,33 @@
+{
+    "id": "Survey",
+    "title": [
+      {
+        "lang": "de",
+        "value": "Survey"
+      }
+    ],
+    "csv_delimiter": ",",
+    "base": "https://w3id.org/iqb/v11",
+    "outDir": "./",
+    "idPattern": "^[abcdefghprqstuvxyz]{1}[2345679]{1}[abcdefghprqstuvxyz]{1}$",
+    "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+    "vocabularies": [
+      {
+        "id": "cw",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Metrische Skalen für Kompetenzstufen"
+          }
+        ],
+        "filenameSource": "cw_Metrische_Skalen.csv",
+        "filenameTarget": "cw_Metrische_Skalen.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }
